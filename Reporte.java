@@ -1,6 +1,5 @@
 // IC-76 Reportes de estado de equipos y mantenimientos
 import java.util.List;
-
 public class Reporte {
 
     public static void generar(List<Mantenimiento> lista, List<Maquinaria> maquinas) {
@@ -23,7 +22,6 @@ public class Reporte {
                 case "fuera": fueraServicio++; break;
             }
         }
-
         System.out.println(" REPORTE ");
         System.out.println("Total mantenimientos: " + totalMantenimientos);
         System.out.println("Tiempo total: " + tiempoTotal + " min");
