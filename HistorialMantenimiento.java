@@ -1,3 +1,4 @@
+// IC-63: historial por máquina implementado
 import java.util.ArrayList;
 import java.util.List;
 
