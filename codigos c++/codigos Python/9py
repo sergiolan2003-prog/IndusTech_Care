@@ -1,0 +1,24 @@
+class Votacion:
+    def __init__(self, titulo, opciones):
+        self.titulo = titulo
+        self.opciones = {opcion: 0 for opcion in opciones}
+
+    def votar(self, opcion):
+        if opcion in self.opciones:
+            self.opciones[opcion] += 1
+
+    def mostrar_resultados(self):
+        print(f"Resultados de {self.titulo}:")
+        for opcion, votos in self.opciones.items():
+            print(f"  {opcion}: {votos} votos")
+
+# Crear votación
+votacion = Votacion("Elección de líder", ["Candidato A", "Candidato B"])
+
+# Registrar votos
+votacion.votar("Candidato A")
+votacion.votar("Candidato B")
+votacion.votar("Candidato A")
+
+# Mostrar resultados
+votacion.mostrar_resultados()

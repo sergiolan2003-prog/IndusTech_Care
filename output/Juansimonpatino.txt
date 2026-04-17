@@ -1,0 +1,25 @@
+nombresito:juan simon patino
+sudokito 1:
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+fue valido o no?1
+
+sudokito 2:
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+0	0	0	0	0	0	0	0	0	
+fue valido o no? 1
+metodos que use fue fuerza bruta que bendicion 

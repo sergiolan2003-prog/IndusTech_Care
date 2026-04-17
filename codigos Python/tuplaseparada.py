@@ -1,0 +1,5 @@
+tupla = ("Juan","19","ing en sistemas")
+print ("\nla tupla es:",tupla)
+print ("\nnombre:",tupla [0])
+print ("\nedad:",tupla [1])
+print ("\nprofesion:",tupla [2])
