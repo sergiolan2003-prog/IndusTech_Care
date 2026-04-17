@@ -1,3 +1,4 @@
+// IC-76 Reportes de estado de equipos y mantenimientos
 import java.util.List;
 
 public class Reporte {
