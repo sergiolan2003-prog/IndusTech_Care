@@ -8,7 +8,6 @@ public class HistorialMantenimiento {
     public void agregar(Mantenimiento m) {
         historial.add(m);
     }
-
     public void consultar() {
         for (Mantenimiento m : historial) {
             m.mostrar();
