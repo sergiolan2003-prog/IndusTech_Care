@@ -1,0 +1,14 @@
+TAREA IC-100 — Endpoints REST: Registrar Mantenimiento y Reportar Falla
+========================================================================
+Archivos a subir:
+ - MantenimientoController.java → com.industech.controllers
+ - FallaController.java         → com.industech.controllers
+ - MantenimientoService.java    → com.industech.services
+ - FallaService.java            → com.industech.services
+ - Mantenimiento.java / Falla.java → com.industech.models (referencia)
+
+Funcionalidades clave:
+ MantenimientoController: agregar(), asignarTecnico(), vincularRepuesto(),
+   iniciar(), finalizar(), calcularCostoTotal(), filtrar()
+ FallaController: agregar(), actualizar(), listarPorGravedad()
+ FallaService: al reportar una falla ALTA genera alerta automática via AlertaService
