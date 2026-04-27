@@ -1,0 +1,9 @@
+TAREA IC-111 — Codificar LoginView en Java Swing
+=================================================
+Sube LoginView.java al paquete com.industech.view
+
+Esta vista:
+ - Pide Nombre + Contraseña al usuario
+ - Valida contra la tabla 'usuario' en MySQL via UsuarioController
+ - Redirige a DashboardView según el rol (ADMIN, TECNICO, JEFE_MANTENIMIENTO)
+ - Muestra mensaje de error si las credenciales son inválidas
