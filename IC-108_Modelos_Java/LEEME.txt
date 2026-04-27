@@ -1,9 +1,0 @@
-TAREA IC-108 — Codificar clases modelo Java
-============================================
-Sube todos los archivos de la carpeta com/industech/models/
-al paquete com.industech.models de tu proyecto en IntelliJ.
-
-Cada clase representa una entidad del sistema con:
- - Atributos tipados
- - Constructor con parámetros
- - Getters y Setters
