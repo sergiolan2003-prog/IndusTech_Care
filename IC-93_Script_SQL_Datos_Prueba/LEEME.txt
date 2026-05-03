@@ -1,0 +1,17 @@
+TAREA IC-93 — Script SQL de datos de prueba (mínimo 3 registros por tabla)
+===========================================================================
+Archivo: industech_bd.sql
+
+Este script crea todas las tablas e inserta los datos de prueba.
+Tablas principales que deben tener mínimo 3 registros:
+ - usuario      (con roles: ADMIN, TECNICO, JEFE_MANTENIMIENTO)
+ - maquinaria   (con estados: OPERATIVO, EN_REPARACION, FUERA_SERVICIO)
+ - tecnico
+ - mantenimiento
+ - falla
+ - repuesto
+ - reporte
+ - alerta
+
+Ejecutar en MySQL:
+  mysql -u root -p < industech_bd.sql
