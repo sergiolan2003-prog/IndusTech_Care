@@ -1,0 +1,19 @@
+TAREA IC-101 — Autenticación: Login, Logout y Control de Acceso por Roles
+==========================================================================
+Archivos a subir:
+ - security/LoginManager.java     → com.industech.security
+ - controllers/UsuarioController.java → com.industech.controllers
+ - services/UsuarioService.java   → com.industech.services
+ - dto/UsuarioDTO.java            → com.industech.dto
+ - models/Usuario.java            → com.industech.models (referencia)
+
+Cómo funciona:
+ - LoginManager.iniciarSesion(nombre, contraseña) llama a UsuarioService.login()
+   que consulta la tabla 'usuario' en MySQL y verifica credenciales
+ - Si es válido, guarda el Usuario en sesión (usuarioActual)
+ - LoginManager.cerrarSesion() limpia la sesión
+ - UsuarioDTO expone solo nombre y rol (sin datos sensibles como contraseña)
+ - El rol controla qué módulos son visibles en DashboardView:
+     ADMIN → acceso total
+     JEFE_MANTENIMIENTO → gestión y reportes
+     TECNICO → solo visualización y estado de equipos
